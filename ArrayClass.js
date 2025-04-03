@@ -37,7 +37,7 @@ class ArrayClass {
   }
 
   clone() {
-    const newList = new ArrayListClass();
+    const newList = new ArrayClass();
     newList.data = [...this.data];
     return newList;
   }
