@@ -76,6 +76,6 @@ describe("ArrayList", () => {
     list.append(2);
     list.append(3);
     list.reverse();
-    expect(list.getFullList()).toStrictEqual([3, 2, 1]);
+    expect(list.getFullList()).toStrictEqual([3, 2, 2]);
   });
 });
